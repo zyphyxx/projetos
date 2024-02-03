@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public interface UserService {
 
-    public List<User> findAllUser();
+     List<User> findAllUser();
 
-    public User createUser(User user);
+    User createUser(User user);
 }
