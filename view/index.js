@@ -15,10 +15,10 @@
         method: "POST",
         body: JSON.stringify(
           {
-            dadosNome: nome.value,
-            dadosEmail: email.value,
-            dadosPhone: phone.value,
-            dadosPass: pass.value
+            name: nome.value,
+            email: email.value,
+            phone: phone.value,
+            password: pass.value
           }
         )}
         
