@@ -35,6 +35,10 @@
     pass.value = ''
   }
 
+  function alerta() {
+    alert('cadastro criado com sucesso')
+  }
+
 
  
  
