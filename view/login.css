@@ -1,0 +1,42 @@
+body {
+  background-color: aquamarine;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: roboto;
+  font-weight: 200;
+  color: black;
+}
+.container-meio {
+  border: 2px solid rgb(8, 8, 8);
+  border-radius: 4%;
+  padding: 10%;
+  margin: 10%;
+  line-height: 1.5;
+  
+
+}
+input{
+  width: 100%;
+  padding: 5%;
+  margin-bottom: 10%;
+}
+button{
+  width: 112%;
+  padding: 5% ;
+  background-color: red;
+  border-radius: 6px;
+  color: white;
+  font-weight: 200;
+  font-size: large;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+}
+a {
+  font-weight: 600;
+  color: blue;
+}

@@ -36,7 +36,9 @@
   }
 
   function alerta() {
-    alert('cadastro criado com sucesso')
+    alert('cadastro criado com sucesso');
+    window.open('/view/login.html')
+
   }
 
 
