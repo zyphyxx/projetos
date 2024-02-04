@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @CrossOrigin("*")
@@ -18,6 +19,12 @@ public class UserResources {
     @GetMapping
     public List<User> findAllUser() {
         return userService.findAllUser();
+    }
+
+    @GetMapping("/{id}")
+    public Optional<User> findUserById(@PathVariable Long id) {
+        return userService.findUserById(id);
+
     }
 
     @PostMapping
