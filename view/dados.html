@@ -4,11 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dados</title>
+  <link rel="stylesheet" href="dados.css">
 </head>
 <body>
-  <button type="button" onclick="retornoUser()">Dados</button>
+  <table class="data-table">
+    <tr>
+      <th>Nome</th>
+      <td id="name"></td>
+    </tr>
+    <tr>
+      <th>Email</th>
+      <td id="email"></td>
+    </tr>
+    <tr>
+      <th>Telefone</th>
+      <td id="phone"></td>
+    </tr>
+  </table>
 
-  <p id="texto"></p>
+  <button onclick="retornoUser()">Dados</button>
   
 </body>
 <script src="dados.js"></script>
