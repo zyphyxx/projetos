@@ -1,0 +1,21 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: roboto;
+  color: black;
+  text-align: center;
+}
+nav a {
+  display: flex;
+  color: red;
+  font-weight: 500;
+  
+}
+nav {
+  background-color: black;
+}
+ ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+ }
